@@ -1,7 +1,14 @@
+import { BrowserRouter } from 'react-router-dom'
 import './App.css'
 
 function App() {
-  return <div className="App"></div>
+  return (
+    <BrowserRouter>
+      <div className="App">
+        <h1>React router</h1>
+      </div>
+    </BrowserRouter>
+  )
 }
 
 export default App
