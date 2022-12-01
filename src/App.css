@@ -2,6 +2,15 @@
   text-align: center;
 }
 
+nav {
+  background-color: rgb(70, 53, 92);
+}
+
+nav a {
+  color: aquamarine;
+  margin: 15px;
+}
+
 h1 {
   font-size: 50px;
 }
