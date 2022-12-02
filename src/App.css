@@ -2,6 +2,17 @@
   text-align: center;
 }
 
+/*изменение стиля для активной ссылки из коробки с компонентом NavLink*/
+/*.active {
+  color: chocolate;
+  text-decoration: none;
+}*/
+
+.activeLink {
+  color: chocolate;
+  text-decoration: none;
+}
+
 nav {
   background-color: rgb(70, 53, 92);
 }
