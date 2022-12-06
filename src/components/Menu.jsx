@@ -29,6 +29,7 @@ function Menu() {
         Home
       </NavLink>
       <NavLink
+        //задание стиля непосредственно в компоненте
         style={({ isActive }) =>
           isActive ? { color: 'chocolate', textDecoration: 'none' } : {}
         }
@@ -37,6 +38,7 @@ function Menu() {
         Contacts
       </NavLink>
       <NavLink to="about">About</NavLink>
+      <NavLink to="projects">Projects</NavLink>
     </nav>
   )
 }

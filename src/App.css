@@ -3,10 +3,10 @@
 }
 
 /*изменение стиля для активной ссылки из коробки с компонентом NavLink*/
-/*.active {
+.active {
   color: chocolate;
   text-decoration: none;
-}*/
+}
 
 .activeLink {
   color: chocolate;
