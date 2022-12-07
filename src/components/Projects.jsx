@@ -1,14 +1,21 @@
-import React from 'react'
+import { useParams } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import projects from '../data/projects'
 
 function Projects() {
   return (
-    <div>
+    <>
       <h1>Projects</h1>
       {projects.map((project) => {
-        return <h3>{project.title}</h3>
+        return (
+          <div key={project.id}>
+            <Link to={project.slug} className="projectLink">
+              {project.title}
+            </Link>
+          </div>
+        )
       })}
-    </div>
+    </>
   )
 }
 

@@ -6,6 +6,7 @@ import About from './components/About'
 import Projects from './components/Projects'
 import MainLayout from './layouts/MainLayout'
 import './App.css'
+import Project from './components/Project'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <Route index element={<Home />} />
             <Route path="contacts" element={<Contacts />} />
             <Route path="projects" element={<Projects />} />
+            <Route path="projects/:slug" element={<Project />} />
             <Route path="*" element={<NotFound />} />
           </Route>
         </Routes>

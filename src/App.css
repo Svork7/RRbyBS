@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-/*изменение стиля для активной ссылки из коробки с компонентом NavLink*/
+/*изменение стиля для активной ссылки по умолчанию с компонентом NavLink*/
 .active {
   color: chocolate;
   text-decoration: none;
@@ -11,6 +11,14 @@
 .activeLink {
   color: chocolate;
   text-decoration: none;
+}
+
+.projectLink {
+  font-size: 25px;
+  text-decoration: none;
+}
+.projectLink:hover {
+  text-decoration: underline;
 }
 
 nav {
