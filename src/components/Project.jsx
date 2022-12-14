@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
 import { Link, useNavigate, useParams } from 'react-router-dom'
 import projects from '../data/projects'
-import NotFound from './NotFound'
+//import NotFound from './NotFound'
 
 const Project = () => {
   const params = useParams()
@@ -15,7 +15,7 @@ const Project = () => {
     if (!project) {
       navigate('..', { relative: 'path' })
     }
-  }, [project])
+  }, [project, navigate])
   //отображение страницы нот фаунд без перенаправления
   /*if (!project) {
     return <NotFound />
